@@ -2,7 +2,7 @@ FROM python:3.10-slim
 
 WORKDIR /code
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txtS
 COPY app.py .
 COPY docker_config.py config.py
 
