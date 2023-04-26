@@ -10,7 +10,7 @@ app.config.from_envvar("APP_SETTINGS", silent=True)
 
 db = SQLAlchemy(app)
 
-#secret
+#secret2
 
 class User(db.Model):
     __tablename__ = 'user'
